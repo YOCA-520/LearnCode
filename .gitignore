@@ -1,0 +1,38 @@
+# 编译输出
+*.exe
+*.o
+*.obj
+*.lib
+*.dll
+*.so
+*.a
+*.out
+
+# 调试文件
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+
+# 测试输出目录
+test_exe/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDE
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+
+# 临时文件
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
