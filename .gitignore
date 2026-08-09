@@ -19,6 +19,7 @@
 test_exe/
 
 # VS Code
+.claude/
 .vscode/
 *.code-workspace
 
