@@ -17,6 +17,7 @@
 
 # 测试输出目录
 test_exe/
+build/
 
 # VS Code
 .claude/
