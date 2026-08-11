@@ -15,21 +15,48 @@
 *.ipdb
 *.iobj
 
+# 屏蔽visual studio相关文件
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.aps
+*.ncb
+*.tlog
+*.lastbuildstate
+*.vcxproj.user
+*.vcxproj.user.*
+
+# Visual Studio 构建输出目录（含 VS 生成的 <项目名>.<哈希> 缓存目录）
+x64/
+x86/
+Win32/
+Debug/
+Release/
+*.recipe
+*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/
+
+# NuGet 还原的包（靠 packages.config 自动还原，不用提交）
+packages/
+*.nupkg
+
 # 测试输出目录
 test_exe/
 build/
+out/
+bin/
 
 # VS Code
 .claude/
 .vscode/
+.vs/
 *.code-workspace
-
-# IDE
-*.user
-*.suo
-*.sdf
-*.opensdf
-*.vcxproj.user
 
 # 临时文件
 *.log
@@ -38,3 +65,4 @@ build/
 *~
 .DS_Store
 Thumbs.db
+.gitignore
