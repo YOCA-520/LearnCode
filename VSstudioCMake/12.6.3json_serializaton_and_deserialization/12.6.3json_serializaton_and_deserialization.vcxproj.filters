@@ -15,14 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="jsonBasicProject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasicJson.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="JsonBasicProject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

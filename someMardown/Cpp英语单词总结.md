@@ -4,6 +4,19 @@
 
 | 英文单词 | 中文翻译 | 来源文件 |
 | --- | --- | --- |
+| serialization | 序列化 | 12.6.3jsonBasicProject.cpp |
+| deserialization | 反序列化 | 12.6.3jsonBasicProject_逐行解析.md |
+| document | 文档 | 12.6.3jsonBasicProject.cpp |
+| contains | 包含 | 12.6.3jsonBasicProject.cpp / 12.2JsonBasicProject.cpp |
+| rating | 等级、评分 | 12.6.3jsonBasicProject.cpp |
+| enable | 启用，生效 | 12.6.3jsonBasicProject.cpp |
+| indentation | 缩进 | 12.6.3jsonBasicProject.cpp |
+| escape | 转义 | 12.6.3jsonBasicProject.cpp |
+| restored | 恢复 | 12.6.3jsonBasicProject.cpp |
+| out_of_range | 超出范围 | 12.6.3jsonBasicProject.cpp |
+| argument | 参数 | 12.6.3jsonBasicProject.cpp / 12.2JsonBasicProject.cpp |
+| invalid_argument | 参数无效（标准错误类型） | 12.6.3jsonBasicProject.cpp / 12.2JsonBasicProject.cpp |
+| literal | 字面量 | 12.2NuGetNnviromentBasicJson.cpp |
 | template | 模板（关键字） | 9.8.0Template.cpp |
 | implementation | 实现 | 9.8.0Template.cpp |
 | per type | 每个类型 | 9.8.0Template.cpp |
@@ -89,7 +102,7 @@
 | input | 输入 | 8.8.0Simple user login and registration.cpp |
 | format | 格式化 | 8.8.0Simple user login and registration.cpp |
 | buffer | 缓冲区 | 8.8.0Simple user login and registration.cpp |
-| tag | 标签 | 8.8.0Simple user login and registration.cpp |
+| tag | 标签 | 8.8.0Simple user login and registration.cpp / 12.6.3jsonBasicProject.cpp |
 | chrono | 计时 | 8.8.0Simple user login and registration.cpp |
 | strftime | 格式化时间 | 8.8.0Simple user login and registration.cpp |
 | snprintf | 格式化输出 | 8.8.0Simple user login and registration.cpp |

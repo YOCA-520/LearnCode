@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="12.2NuGetNnviroment.vcxproj" Id="21d96af0-abab-423b-8c3e-90510ee6a704" />
+  <Project Path="12.6.3json_serializaton_and_deserialization.vcxproj" />
 </Solution>

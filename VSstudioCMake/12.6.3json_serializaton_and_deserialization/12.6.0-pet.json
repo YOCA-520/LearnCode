@@ -1,0 +1,16 @@
+{
+    "enable": true,
+    "note": null,
+    "pet": {
+        "adopted": false,
+        "age": 2,
+        "breed": "柯基",
+        "name": "旺财"
+    },
+    "rating": 4.5,
+    "tags": [
+        "friendly",
+        "vaccinated"
+    ],
+    "version": 1
+}

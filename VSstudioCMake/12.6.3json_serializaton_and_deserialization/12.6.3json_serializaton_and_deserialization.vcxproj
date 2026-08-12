@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{21d96af0-abab-423b-8c3e-90510ee6a704}</ProjectGuid>
-    <RootNamespace>My122NuGetNnviroment</RootNamespace>
+    <ProjectGuid>{ac2854f1-e2b7-4df6-9553-367f3bb9d237}</ProjectGuid>
+    <RootNamespace>My1263jsonserializatonanddeserialization</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="jsonBasicProject.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasicJson.cpp" />
-    <ClCompile Include="JsonBasicProject.cpp" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
