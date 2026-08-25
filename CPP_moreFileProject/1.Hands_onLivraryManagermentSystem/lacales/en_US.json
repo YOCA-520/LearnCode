@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "title": "Library System",
+    "borrow": "Borrow"
+  },
+  "error": {
+    "borrow": "Book not Found"
+  },
+  "status": {
+    "borrow_ok": "Borrowed"
+  }
+}

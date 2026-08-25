@@ -15,7 +15,7 @@ project ("CMakeCalculator" LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 
 #set out path of the executable file to /bin
-set(CMAKE_RUNTINE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/bin" )
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/bin")
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (CMakeCalculator "src/calculator.cpp" "src/main.cpp" "include/calculator.h")

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="12.6.3json_serializaton_and_deserialization.vcxproj" Id="ac2854f1-e2b7-4df6-9553-367f3bb9d237" />
+</Solution>

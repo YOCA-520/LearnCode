@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="12.6.3json_serializaton_and_deserialization.vcxproj" />
+  <Project Path="12.7.1HelloVcpkgAndSpdlog.vcxproj" />
 </Solution>

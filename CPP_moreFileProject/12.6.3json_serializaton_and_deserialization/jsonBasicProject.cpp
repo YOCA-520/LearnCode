@@ -63,7 +63,7 @@ int main() {
 			{"version",1},
 			{"pet",pet},
 			//tags[标签]
-			{"tags",json::array({"friendly","vaccinated"})},
+			{"tags",json::array({"friendly","vaccinated"})},//friendly[友好的]//vaccinated[已接种疫苗的]
 			//rating[等级、评分]
 			{"rating",4.5},
 			//enable[启用，生效]
@@ -139,7 +139,7 @@ int main() {
 			if (!input) {
 				throw std::runtime_error("无法打开 JSON 输入文件");
 			}
-			loaded = json::parse(input);
+			loaded = json::parse(input);//parse[解析]
 		}
 
 		if (!loaded.is_object() || !loaded.contains("pet")) {

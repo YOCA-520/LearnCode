@@ -58,6 +58,11 @@ bin/
 .vs/
 *.code-workspace
 
+# CLion / IntelliJ 系 IDE（匹配任意层级）
+.idea/
+*.iml
+cmake-build-*/
+
 # 临时文件
 *.log
 *.tmp

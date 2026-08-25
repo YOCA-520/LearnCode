@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "title": "图书管理系统",
+    "borrow": "借书"
+  },
+  "prompt": {
+    "title":"书名",
+    "author": "作者",
+    "category": "类别"
+  },
+  "error": {
+    "borrow": "图书不存在"
+  },
+  "status": {
+    "borrow_ok": "借阅成功"
+  }
+}
